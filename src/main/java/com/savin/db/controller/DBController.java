@@ -16,14 +16,17 @@ public class DBController implements GuestBookController {
     private Statement statement;
 
     public DBController(DataSource ds) throws Exception {
-        try {
-            this.conn = ds.getConnection();
-            statement = conn.createStatement();
-            System.out.println("ready to start");
-        } catch (SQLException ex) {
-            if (conn != null)
+        synchronized (DBController.class){
+            try {
+                this.conn = ds.getConnection();
+                statement = conn.createStatement();
+                System.out.println("ready to start");
+            } catch (SQLException ex) {
+                throw new Exception(ex);
+            }
+            finally {
                 conn.close();
-            throw new Exception(ex);
+            }
         }
 
 

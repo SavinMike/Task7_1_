@@ -33,8 +33,7 @@ public class Hello extends HttpServlet {
     }
     @PostConstruct
     public void createDB(){
-        try {
-        Connection conn = ds.getConnection();
+        try (Connection conn = ds.getConnection()){
         Statement statement=conn.createStatement();
         statement.executeUpdate(
                 "CREATE TABLE posts(id int NOT NULL AUTO_INCREMENT," +
@@ -45,6 +44,7 @@ public class Hello extends HttpServlet {
         catch (SQLException e){
             e.printStackTrace();
         }
+
     }
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -56,13 +56,14 @@ public class Hello extends HttpServlet {
             initGuestBook();
             req.setAttribute("GuestList", guestBook.list());
             req.getRequestDispatcher("WEB-INF/test.jsp").forward(req, response);
-            guestBook.close();
 
         }
         catch (SQLException e){
-            guestBook.close();
             e.printStackTrace();
             req.setAttribute("Exception","DB problem not add");
+        }
+        finally {
+            guestBook.close();
         }
     }
     protected void doPost(HttpServletRequest req,HttpServletResponse response) throws ServletException,IOException{
@@ -71,12 +72,13 @@ public class Hello extends HttpServlet {
             guestBook.add(req.getParameter("Rollno"));
             req.setAttribute("GuestList",guestBook.list());
             req.getRequestDispatcher("WEB-INF/test.jsp").forward(req, response);
-            guestBook.close();
         }
         catch (SQLException e){
-            guestBook.close();
             req.setAttribute("Exception","DB problem not add");
             e.printStackTrace();
+        }
+        finally {
+            guestBook.close();
         }
 
     }
