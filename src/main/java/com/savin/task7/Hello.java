@@ -23,7 +23,13 @@ public class Hello extends HttpServlet {
 
   //  @PostConstruct
     public synchronized void initGuestBook(){
-        guestBook=new GuestBook(ds);
+        try {
+            guestBook=new GuestBook(ds);
+        }
+        catch (Exception e)  {
+            e.printStackTrace();
+        }
+
     }
     @PostConstruct
     public void createDB(){
