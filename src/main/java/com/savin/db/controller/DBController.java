@@ -46,7 +46,7 @@ public class DBController implements GuestBookController {
     public List<Record> getRecords() throws SQLException {
         List<Record> records = new ArrayList<>();
         ResultSet resultSet = statement.executeQuery("SELECT id, postData, postMessage FROM posts ORDER BY postDate DESC");
-        if(resultSet.wasNull()){
+        if(resultSet==null){
             return Collections.EMPTY_LIST;
         }
         while (resultSet.next()) {
