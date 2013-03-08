@@ -46,8 +46,6 @@ public class DBController implements GuestBookController {
     public List<Record> getRecords() throws SQLException {
         List<Record> records = new ArrayList<>();
         ResultSet resultSet = statement.executeQuery("SELECT * FROM posts ORDER BY postData DESC");
-        if(resultSet.wasNull())
-            return Collections.EMPTY_LIST;
         while (resultSet.next()) {
             Record record = new Record(resultSet.getInt("id"), resultSet.getLong("postData"), resultSet.getString("postMessage"));
             records.add(record);

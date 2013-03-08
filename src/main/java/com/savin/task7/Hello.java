@@ -22,8 +22,8 @@ public class Hello extends HttpServlet {
     private GuestBook guestBook;
     @PostConstruct
     public void createDB(){
-        try {
-            Connection con=ds.getConnection();
+        try (Connection con=ds.getConnection()){
+
             Statement statement=con.createStatement();
 
             statement.execute(
