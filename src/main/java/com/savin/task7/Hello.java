@@ -20,32 +20,34 @@ public class Hello extends HttpServlet {
     private DataSource ds;
 
     private GuestBook guestBook;
+    @PostConstruct
+    public void createDB(){
+        try {
+            Connection con=ds.getConnection();
+            Statement statement=con.createStatement();
 
-  //  @PostConstruct
+            statement.execute(
+                    "CREATE TABLE posts(id int NOT NULL AUTO_INCREMENT," +
+                            "postData long," +
+                            "postMessage varchar(255)," +
+                            "PRIMARY KEY (id))\n");
+        }
+        catch (SQLException e){
+            e.printStackTrace();
+        }
+    }
     public synchronized void initGuestBook(){
         try {
             guestBook=new GuestBook(ds);
+
+
         }
         catch (Exception e)  {
             e.printStackTrace();
         }
 
     }
-    @PostConstruct
-    public void createDB(){
-        try (Connection conn = ds.getConnection()){
-        Statement statement=conn.createStatement();
-        statement.executeUpdate(
-                "CREATE TABLE posts(id int NOT NULL AUTO_INCREMENT," +
-                        "postDate long," +
-                        "postMessage varchar(255)," +
-                        "PRIMARY KEY (id))\n");
-        }
-        catch (SQLException e){
-            e.printStackTrace();
-        }
 
-    }
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         super.service(req, resp);    //To change body of overridden methods use File | Settings | File Templates.

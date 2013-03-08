@@ -6,11 +6,11 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/web.xml" changelist="b00d842f-25b9-439b-9153-5db972869e07" time="1362575492796" ignored="false" />
     <file path="/pom.xml" changelist="b00d842f-25b9-439b-9153-5db972869e07" time="1362215886977" ignored="false" />
-    <file path="/Hello.java" changelist="b00d842f-25b9-439b-9153-5db972869e07" time="1362766938925" ignored="false" />
+    <file path="/Hello.java" changelist="b00d842f-25b9-439b-9153-5db972869e07" time="1362771215803" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="b00d842f-25b9-439b-9153-5db972869e07" time="1362245974753" ignored="false" />
     <file path="/test.jsp" changelist="b00d842f-25b9-439b-9153-5db972869e07" time="1362585823066" ignored="false" />
     <file path="/GuestBook.java" changelist="b00d842f-25b9-439b-9153-5db972869e07" time="1362745142000" ignored="false" />
-    <file path="/fragment.java" changelist="b00d842f-25b9-439b-9153-5db972869e07" time="1362725831625" ignored="false" />
+    <file path="/fragment.java" changelist="b00d842f-25b9-439b-9153-5db972869e07" time="1362769846055" ignored="false" />
     <file path="$PROJECT_DIR$/../../playtox/task2/src/Main.java" changelist="b00d842f-25b9-439b-9153-5db972869e07" time="1362246030581" ignored="false" />
     <file path="/Main.java" changelist="b00d842f-25b9-439b-9153-5db972869e07" time="1362596066546" ignored="false" />
     <file path="$PROJECT_DIR$/../../playtox/task2/src/Money.java" changelist="b00d842f-25b9-439b-9153-5db972869e07" time="1362234380365" ignored="false" />
@@ -29,8 +29,8 @@
     <file path="/Parser.java" changelist="b00d842f-25b9-439b-9153-5db972869e07" time="1362243252949" ignored="false" />
     <file path="$PROJECT_DIR$/../../playtox/task2/src/com/savin/playtox/CSV/Column.java" changelist="b00d842f-25b9-439b-9153-5db972869e07" time="1362244098595" ignored="false" />
     <file path="$PROJECT_DIR$/../../playtox/task2/src/com/savin/playtox/CSV/StringColumn.java" changelist="b00d842f-25b9-439b-9153-5db972869e07" time="1362246405506" ignored="false" />
-    <file path="/DBController.java" changelist="b00d842f-25b9-439b-9153-5db972869e07" time="1362767523731" ignored="false" />
-    <file path="/Record.java" changelist="b00d842f-25b9-439b-9153-5db972869e07" time="1362731683572" ignored="false" />
+    <file path="/DBController.java" changelist="b00d842f-25b9-439b-9153-5db972869e07" time="1362771156096" ignored="false" />
+    <file path="/Record.java" changelist="b00d842f-25b9-439b-9153-5db972869e07" time="1362768785764" ignored="false" />
     <file path="/Dummy.txt" changelist="b00d842f-25b9-439b-9153-5db972869e07" time="1362728935251" ignored="false" />
     <file path="$PROJECT_DIR$/../javaCourses/index.html" changelist="b00d842f-25b9-439b-9153-5db972869e07" time="1362731306833" ignored="false" />
     <file path="$PROJECT_DIR$/../javaCourses/Task 5/src/com/savin/server/TCPServer.java" changelist="b00d842f-25b9-439b-9153-5db972869e07" time="1362731084735" ignored="false" />
@@ -60,7 +60,64 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/savin/task7/Hello.java" line="52" class="com.savin.task7.Hello" package="com.savin.task7">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/savin/task7/Hello.java" line="57" class="com.savin.task7.Hello" package="com.savin.task7">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/savin/task7/Hello.java" line="18" class="com.savin.task7.Hello" package="com.savin.task7">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/savin/db/controller/DBController.java" line="20" class="com.savin.db.controller.DBController" package="com.savin.db.controller">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -105,10 +162,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DBController.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DBController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/savin/db/controller/DBController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="26" selection-start="1464" selection-end="1464" vertical-scroll-proportion="0.67741936">
+            <state line="28" column="9" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -117,35 +174,39 @@
       <file leaf-file-name="Hello.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/savin/task7/Hello.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="30" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.0">
+            <state line="42" column="26" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Record.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Record.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/savin/db/structure/Record.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+            <state line="23" column="16" selection-start="525" selection-end="525" vertical-scroll-proportion="0.6590258">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Statement.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/sql/Statement.java">
+      <file leaf-file-name="Iterable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Iterable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="8" selection-start="1683" selection-end="1683" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="44" column="10" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#623#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Iterator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/util/Iterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="17" selection-start="964" selection-end="964" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#2299#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,7 +214,7 @@
       <file leaf-file-name="test.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/test.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
+            <state line="11" column="16" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -162,7 +223,7 @@
       <file leaf-file-name="GuestBook.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/savin/task7/GuestBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="57" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
+            <state line="16" column="0" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -226,11 +287,11 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/test.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/savin/db/structure/Record.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/savin/db/controller/GuestBookController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/savin/task7/GuestBook.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/savin/task7/Hello.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/savin/db/controller/DBController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/savin/task7/Hello.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/savin/db/structure/Record.java" />
       </list>
     </option>
   </component>
@@ -384,6 +445,54 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Task7_1_" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Task7_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Task7_1_" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Task7_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Task7_1_" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -719,7 +828,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16666667" sideWeight="0.6746167" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24924242" sideWeight="0.6746167" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3253833" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3253833" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -788,16 +897,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/http/HttpServletResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="21" selection-start="2709" selection-end="2709" vertical-scroll-proportion="0.49689442" />
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/http/HttpServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="19" selection-start="1550" selection-end="1550" vertical-scroll-proportion="0.0" />
@@ -818,13 +917,6 @@
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/sql/Statement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="8" selection-start="1683" selection-end="1683" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -855,6 +947,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="10" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#623#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="17" selection-start="964" selection-end="964" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#2299#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="16" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/savin/task7/GuestBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/savin/db/controller/GuestBookController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="17" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
@@ -862,30 +986,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/savin/task7/Hello.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/savin/db/controller/DBController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="30" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.0">
+        <state line="28" column="9" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/savin/task7/GuestBook.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/savin/task7/Hello.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="57" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
+        <state line="42" column="26" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/savin/db/structure/Record.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/savin/db/controller/DBController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="26" selection-start="1464" selection-end="1464" vertical-scroll-proportion="0.67741936">
+        <state line="23" column="16" selection-start="525" selection-end="525" vertical-scroll-proportion="0.6590258">
           <folding />
         </state>
       </provider>

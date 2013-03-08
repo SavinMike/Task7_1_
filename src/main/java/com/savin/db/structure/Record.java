@@ -21,6 +21,8 @@ public class Record {
     }
 
     public String toString() {
-        return "id=" + id + "; data=" + data + "; Message:" + postMessage;
+        return "Message:" + postMessage;
     }
+
 }
+
